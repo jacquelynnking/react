@@ -5,7 +5,6 @@ import React, { Component } from 'react';
 import logo from '../assets/sentry-glyph-black.png';
 
 class Errors extends Component {
-
     componentDidMount() {
         Raven.setTagsContext({
             feature: "frontend"
